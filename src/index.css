@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@300;400;500;600;700;800&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", "Inter", sans-serif;
+
+  /* Primary blue and gold from MUAS identity */
+  --color-brand-blue-50: #f0f6fc;
+  --color-brand-blue-100: #deecf9;
+  --color-brand-blue-500: #0c4a8f; /* Religious/Academy deep blue */
+  --color-brand-blue-600: #093970;
+  --color-brand-blue-700: #072b54;
+  --color-brand-blue-800: #041d3b;
+  --color-brand-blue-900: #020f20;
+
+  --color-brand-gold-50: #fdfaf2;
+  --color-brand-gold-100: #faeed1;
+  --color-brand-gold-400: #e9c15a;
+  --color-brand-gold-500: #cca028; /* Rich golden yellow */
+  --color-brand-gold-600: #a17c18;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #f8fafc;
+  color: #1e293b;
+}

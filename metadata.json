@@ -1,0 +1,6 @@
+{
+  "name": "MUAS Student Information System",
+  "description": "Student Information System for Myanmar Union Adventist Seminary (MUAS) including Dashboard, Student Records, Registration, Finance, Grades, Attendance, and Reports.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
